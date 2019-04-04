@@ -1,0 +1,8 @@
+import sys
+file = sys.argv[1]
+n = int(sys.argv[2])
+
+with open(file) as r:
+    hightemp = r.read()
+
+print("\n".join(hightemp.split('\n')[0:n]))
