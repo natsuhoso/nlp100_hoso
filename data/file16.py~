@@ -9,7 +9,7 @@ with open(file) as r:
 
 rows = np.array(text.split('\n'))
 num = 0
-for i in np.array_split(rows,n):
+for i in np.array_split(rows,int(len(rows)/n)):
     with open(f'data/dir16_b/file{num}.txt', mode = 'w') as w:
         w.write("\n".join(i))
     num = num + 1
