@@ -6,3 +6,4 @@
 
 [進捗](https://github.com/smartnova/19-allhands/issues/2)
 
+[githubでipynbがレンダリングされないとき](https://nbviewer.jupyter.org/github/natsuhoso/nlp100_hoso/tree/master/)
